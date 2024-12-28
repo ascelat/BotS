@@ -1,4 +1,4 @@
-package com.example.testBot.service.handler;
+package com.example.testBot.handler;
 
 import com.example.testBot.telegram.Bot;
 import org.springframework.stereotype.Service;

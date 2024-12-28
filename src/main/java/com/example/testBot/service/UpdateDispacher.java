@@ -1,8 +1,8 @@
 package com.example.testBot.service;
 
-import com.example.testBot.service.handler.CallbackQueryHandler;
-import com.example.testBot.service.handler.Commandhandler;
-import com.example.testBot.service.handler.MessageHandler;
+import com.example.testBot.handler.CallbackQueryHandler;
+import com.example.testBot.handler.Commandhandler;
+import com.example.testBot.handler.MessageHandler;
 import com.example.testBot.telegram.Bot;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
