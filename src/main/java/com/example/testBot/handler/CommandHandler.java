@@ -8,7 +8,7 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Message;
 
 @Service
-public class Commandhandler {
+public class CommandHandler {
 
     public BotApiMethod<?> answer(Message message, Bot bot) {
         String commandText = message.getText();

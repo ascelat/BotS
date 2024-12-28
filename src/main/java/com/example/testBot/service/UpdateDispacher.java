@@ -1,7 +1,7 @@
 package com.example.testBot.service;
 
 import com.example.testBot.handler.CallbackQueryHandler;
-import com.example.testBot.handler.Commandhandler;
+import com.example.testBot.handler.CommandHandler;
 import com.example.testBot.handler.MessageHandler;
 import com.example.testBot.telegram.Bot;
 import lombok.extern.slf4j.Slf4j;
@@ -15,12 +15,12 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 @Slf4j
 public class UpdateDispacher {
     private final CallbackQueryHandler callbackQueryHandler;
-    private final Commandhandler commandhandler;
+    private final CommandHandler commandhandler;
     private final MessageHandler messageHandler;
 
     @Autowired
     public UpdateDispacher(CallbackQueryHandler callbackQueryHandler,
-                           Commandhandler commandhandler,
+                           CommandHandler commandhandler,
                            MessageHandler messageHandler) {
         this.callbackQueryHandler = callbackQueryHandler;
         this.commandhandler = commandhandler;
